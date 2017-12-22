@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/12/22
- * Time: 下午 03:50
- */
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+    </div>
+    <!-- /.container -->
+</footer>
