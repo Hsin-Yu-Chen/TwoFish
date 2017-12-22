@@ -7,19 +7,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="{{ route('posts.about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="{{ route('posts.index') }}">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="{{ route('posts.contact') }}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio-4-col.html">Portfolio</a>
+                    <a class="nav-link" href="{{ route('posts.show') }}">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog-home-2.html">Blog</a>
+                    <a class="nav-link" href="{{ route('posts.index') }}">Blog</a>
             </ul>
         </div>
     </div>
